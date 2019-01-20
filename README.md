@@ -15,7 +15,7 @@ to access this object and all is children I use a recursive algorithm that proce
 the info of the current layer, then maps the children info, creates a new object same as 
 itself and passes the child info, and the process goes on until it reaches a empty children field
 
-This object has some mothods to change its data, and to solve the propblem if sync data, I calla a setState
+This object has some methods to change its data, and to solve the propblem if sync data, I call a setState
 to let everybody know that the data has changed
 
 Che app can be split in three main parts
